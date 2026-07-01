@@ -492,6 +492,47 @@ section {
   padding-bottom: 3px;
 }
 
+.founder-socials {
+  display: flex;
+  gap: 14px;
+  margin-top: 14px;
+}
+
+.founder-socials a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 34px;
+  height: 34px;
+  border: 1px solid var(--red);
+  border-radius: 50%;
+  color: var(--red);
+  transition: background 0.2s ease, color 0.2s ease;
+}
+
+.founder-socials a:hover {
+  background: var(--red);
+  color: var(--bg);
+}
+
+.founder-socials svg {
+  width: 15px;
+  height: 15px;
+  display: block;
+}
+
+.founder-socials .sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
 .founder-second {
   margin-top: 64px;
 }
