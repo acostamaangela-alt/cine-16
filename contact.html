@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact / Cine 16 Studio</title>
+  <meta name="description" content="Get in touch with Cine 16 Studio. For commissions, collaborations, and inquiries.">
+  <link rel="icon" href="favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=League+Spartan:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+
+  <link rel="canonical" href="https://cine16studio.com/contact.html">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Cine 16 Studio">
+  <meta property="og:title" content="Contact / Cine 16 Studio">
+  <meta property="og:description" content="Get in touch with Cine 16 Studio. For commissions, collaborations, and inquiries.">
+  <meta property="og:url" content="https://cine16studio.com/contact.html">
+  <meta property="og:image" content="https://cine16studio.com/og-image.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Contact / Cine 16 Studio">
+  <meta name="twitter:description" content="Get in touch with Cine 16 Studio. For commissions, collaborations, and inquiries.">
+  <meta name="twitter:image" content="https://cine16studio.com/og-image.jpg">
+</head>
+<body>
+
+  <header>
+  <nav class="nav">
+    <a href="index.html" class="nav-logo">
+      <img src="assets/logo-red-transparent.png" alt="" loading="lazy">
+      <span class="nav-logo-text">Cine 16 Studio</span>
+    </a>
+    <ul class="nav-links">
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="index.html#about">About</a></li>
+      <li><a href="founders.html">Founders</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+  </header>
+
+  <main>
+
+    <section class="contact-page">
+
+      <div class="contact-page-hero">
+        <span class="num">004 / Contact</span>
+        <div>
+          <h1>Let's <span class="ser">talk.</span></h1>
+          <p class="subtitle">For commissions, collaborations, and the briefs in between. Tell us a bit about your project and we'll get back within two working days.</p>
+        </div>
+      </div>
+
+      <div class="contact-grid">
+
+        <!--
+          On submit, JS in script.js constructs a mailto: URL with all fields and opens
+          the visitor's email client addressed to hello@cine16studio.com.
+          For a more polished experience (no email client needed, submissions sent straight to inbox),
+          sign up at formspree.io (free 50/mo) or web3forms.com and swap this form's action to their URL.
+        -->
+        <form class="contact-form" id="inquiry-form">
+          <span class="contact-form-eyebrow">Inquiry Form</span>
+
+          <div class="contact-form-row">
+            <div class="field">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" placeholder="Your full name" required>
+            </div>
+            <div class="field">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" placeholder="you@domain.com" required>
+            </div>
+          </div>
+
+          <div class="contact-form-row">
+            <div class="field">
+              <label for="project-type">Project Type</label>
+              <select id="project-type" name="project-type" required>
+                <option value="" disabled selected>Select one</option>
+                <option value="Photography">Photography</option>
+                <option value="Videography">Videography</option>
+                <option value="Photography &amp; Videography">Photography &amp; Videography</option>
+                <option value="Social Media Direction">Social Media Direction</option>
+                <option value="Illustration">Illustration</option>
+                <option value="Other">Other / Not Sure</option>
+              </select>
+            </div>
+            <div class="field">
+              <label for="timeline">Timeline</label>
+              <select id="timeline" name="timeline">
+                <option value="" disabled selected>Select one</option>
+                <option value="Within 1 month">Within 1 month</option>
+                <option value="1 to 3 months">1 to 3 months</option>
+                <option value="3 to 6 months">3 to 6 months</option>
+                <option value="Flexible">Flexible</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="contact-form-row">
+            <div class="field full">
+              <label for="message">Brief</label>
+              <textarea id="message" name="message" placeholder="Tell us about the project, the goal, the audience, and anything else we should know." required></textarea>
+            </div>
+          </div>
+
+          <button type="submit" class="contact-submit">Send Inquiry &rarr;</button>
+        </form>
+
+        <aside class="contact-info-col">
+          <span class="contact-info-eyebrow">Or Reach Us Direct</span>
+
+          <div class="contact-info-row">
+            <span class="label">Inquiries</span>
+            <a href="mailto:hello@cine16studio.com" class="value serif">hello@cine16studio.com</a>
+          </div>
+
+          <div class="contact-info-row">
+            <span class="label">Based In</span>
+            <span class="value">Manama, Bahrain</span>
+          </div>
+
+          <div class="contact-info-row">
+            <span class="label">Working</span>
+            <span class="value">Worldwide</span>
+          </div>
+
+          <div class="contact-info-row">
+            <span class="label">Response Time</span>
+            <span class="value">Within two working days</span>
+          </div>
+
+          <div class="contact-info-row">
+            <span class="label">What to include</span>
+            <ul>
+              <li>What kind of work you're after</li>
+              <li>Approximate timeline</li>
+              <li>Budget range, if known</li>
+              <li>Any references or moodboards</li>
+            </ul>
+          </div>
+        </aside>
+
+      </div>
+
+    </section>
+
+  </main>
+
+  <footer>
+    <span class="footer-mark">
+      <img src="assets/logo-red-transparent.png" alt="" loading="lazy">
+      <span>Cine 16 Studio</span>
+    </span>
+    <span>&copy; 2025</span>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>

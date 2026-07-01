@@ -1,0 +1,24 @@
+# macOS
+.DS_Store
+._*
+
+# Editor
+.vscode/
+.idea/
+*.swp
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+
+# Vercel
+.vercel/
+
+# Logs
+*.log
+
+# Env
+.env
+.env.local
+.env.*.local

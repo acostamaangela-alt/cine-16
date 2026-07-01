@@ -1,0 +1,4 @@
+Contact: mailto:hello@cine16studio.com
+Expires: 2027-05-21T00:00:00.000Z
+Preferred-Languages: en
+Canonical: https://cine16studio.com/.well-known/security.txt
