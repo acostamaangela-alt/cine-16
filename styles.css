@@ -794,6 +794,13 @@ footer .footer-mark img {
 .portfolio-images.three { grid-template-columns: repeat(3, 1fr); }
 .portfolio-images.five { grid-template-columns: repeat(5, 1fr); }
 
+.portfolio-images.solo-compact {
+  display: block;
+}
+.portfolio-images.solo-compact .img-wrap {
+  max-width: 340px;
+}
+
 .portfolio-images .img-wrap {
   width: 100%;
   aspect-ratio: 3 / 4;
