@@ -670,11 +670,15 @@ footer .footer-mark img {
 
 .projects-tiles {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: repeat(3, 1fr);
   gap: 24px;
   padding-bottom: 120px;
   padding-top: 24px;
   border-top: 1px solid var(--line-strong);
+}
+
+@media (max-width: 1000px) {
+  .projects-tiles { grid-template-columns: 1fr 1fr; }
 }
 
 .projects-tile {
