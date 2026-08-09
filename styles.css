@@ -332,17 +332,39 @@ section {
 .services-row {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 60px;
+  gap: 40px;
+}
+
+.service {
+  display: flex;
+  flex-direction: column;
+  border-top: 1px solid var(--text);
+  padding-top: 24px;
+  color: var(--text);
+}
+
+.service-num {
+  font-family: 'League Spartan', sans-serif;
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.18em;
+  color: var(--muted);
+  margin-bottom: 40px;
 }
 
 .service h3 {
   font-family: 'League Spartan', sans-serif;
   font-weight: 500;
-  font-size: clamp(28px, 3vw, 44px);
+  font-size: clamp(24px, 2.2vw, 32px);
   line-height: 1.05;
   letter-spacing: -0.015em;
-  margin-bottom: 18px;
+  margin-bottom: 14px;
   color: var(--text);
+  transition: color 0.25s ease;
+}
+
+.service:hover h3 {
+  color: var(--red);
 }
 
 .service h3 .ser {
@@ -353,10 +375,27 @@ section {
 
 .service p {
   font-family: 'League Spartan', sans-serif;
-  font-size: 16px;
+  font-size: 15px;
+  font-weight: 300;
   line-height: 1.55;
-  max-width: 420px;
+  max-width: 340px;
   color: var(--text);
+  margin-bottom: 28px;
+}
+
+.service-arrow {
+  margin-top: auto;
+  font-family: 'League Spartan', sans-serif;
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--muted);
+  transition: color 0.25s ease;
+}
+
+.service:hover .service-arrow {
+  color: var(--red);
 }
 
 .services-also {
