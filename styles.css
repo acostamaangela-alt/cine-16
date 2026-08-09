@@ -331,8 +331,8 @@ section {
 
 .services-row {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 80px;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 60px;
 }
 
 .service h3 {
